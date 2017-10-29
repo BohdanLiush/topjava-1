@@ -28,7 +28,6 @@ public class UserMeal {
     }
 
     public int getCalories() {
-        //
         return calories;
     }
 }

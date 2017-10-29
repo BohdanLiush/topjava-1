@@ -20,6 +20,5 @@ public class UserMealWithExceed {
         this.description = description;
         this.calories = calories;
         this.exceed = exceed;
-        //
     }
 }
