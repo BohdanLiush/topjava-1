@@ -2,10 +2,10 @@ package ru.javawebinar.topjava.web.user;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-<<<<<<< Updated upstream
-=======
+/*<<<<<<< Updated upstream
+=======*/
 import org.springframework.beans.factory.annotation.Autowired;
->>>>>>> Stashed changes
+//>>>>>>> Stashed changes
 import ru.javawebinar.topjava.model.User;
 import ru.javawebinar.topjava.service.UserService;
 
@@ -17,10 +17,10 @@ import static ru.javawebinar.topjava.util.ValidationUtil.checkNew;
 public abstract class AbstractUserController {
     protected final Logger log = LoggerFactory.getLogger(getClass());
 
-<<<<<<< Updated upstream
+/*<<<<<<< Updated upstream
 =======
     @Autowired
->>>>>>> Stashed changes
+>>>>>>> Stashed changes*/
     private UserService service;
 
     public List<User> getAll() {
