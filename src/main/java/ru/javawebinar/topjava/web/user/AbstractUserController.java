@@ -18,9 +18,9 @@ public abstract class AbstractUserController {
     protected final Logger log = LoggerFactory.getLogger(getClass());
 
 /*<<<<<<< Updated upstream
-=======
+=======*/
     @Autowired
->>>>>>> Stashed changes*/
+//>>>>>>> Stashed changes
     private UserService service;
 
     public List<User> getAll() {
